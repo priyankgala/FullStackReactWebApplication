@@ -3,11 +3,6 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 're
 import DishDetailComponent from './DishDetailComponent';
 
 class Menu extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-   
 
     renderDish(dish) {
         if (dish != null)

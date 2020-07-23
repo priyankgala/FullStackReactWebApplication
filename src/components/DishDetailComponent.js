@@ -19,7 +19,7 @@ class DishDetailComponent extends Component {
     }
 
     renderComments(dish) {
-        console.log(dish.comments.date);
+        // console.log(dish.comments.date);
         const comments = dish.comments.map((comnt) => {
             return (
                 <ul className="list-unstyled">
