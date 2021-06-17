@@ -135,6 +135,7 @@ class Header extends Component {
                   name="password"
                   //   innerRef={(output) => (this.password = output)}
                   innerRef={this.ref}
+                  y
                 ></Input>
               </FormGroup>
               <FormGroup check>
